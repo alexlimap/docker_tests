@@ -1,47 +1,43 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+import yfinance as yf
 import matplotlib.pyplot as plt
 
-# Função para gerar dados de exemplo
-def generate_data():
-    data = {
-        'Country': ['USA', 'Canada', 'Germany', 'UK', 'France'],
-        'Population': [327, 38, 83, 67, 65],
-        'GDP': [21.43, 1.84, 4.42, 2.62, 2.78]
-    }
-    return pd.DataFrame(data)
+def get_stock_data(tickers, start_date, end_date):
+    data = yf.download(tickers, start=start_date, end=end_date)
+    return data['Adj Close']
 
-# Função para filtrar dados com base no país selecionado
-def filter_data(df, country):
-    return df[df['Country'] == country]
-
-# Função para plotar gráfico
-def plot_data(df):
+def plot_stock_data(stock_data):
     fig, ax = plt.subplots()
-    ax.bar(df['Country'], df['GDP'])
-    ax.set_xlabel('Country')
-    ax.set_ylabel('GDP (Trillions USD)')
-    ax.set_title('GDP by Country')
+    for column in stock_data.columns:
+        ax.plot(stock_data.index, stock_data[column], label=column)
+    ax.set_xlabel('Date')
+    ax.set_ylabel('Price')
+    ax.set_title('Stock Prices')
+    ax.legend()
     st.pyplot(fig)
 
 def main():
-    st.title('GDP Analysis')
+    st.title('Stock Analysis')
     
-    # Gerar dados
-    data = generate_data()
+    # Definir parâmetros de entrada
+    tickers = st.text_input('Enter stock tickers (comma-separated):', 'AAPL,GOOGL,MSFT,AMZN,FB').upper().split(',')
+    start_date = st.date_input('Start Date:', pd.to_datetime('2020-01-01'))
+    end_date = st.date_input('End Date:', pd.to_datetime('today'))
     
-    # Filtro por país
-    selected_country = st.selectbox('Select a country:', data['Country'])
-    filtered_data = filter_data(data, selected_country)
+    # Obter dados das ações
+    stock_data = get_stock_data(tickers, start_date, end_date)
     
-    # Exibir dados filtrados
-    st.write('Filtered Data:')
-    st.write(filtered_data)
-    
-    # Plotar gráfico
-    st.write('GDP Chart:')
-    plot_data(filtered_data)
+    if not stock_data.empty:
+        # Exibir dados
+        st.write('Stock Data:')
+        st.write(stock_data)
+        
+        # Plotar gráfico
+        st.write('Stock Price Chart:')
+        plot_stock_data(stock_data)
+    else:
+        st.write('No data available for the selected stocks.')
 
 if __name__ == '__main__':
     main()
