@@ -17,7 +17,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#%EF%B8%8F-funcionalidades)
-   * [Aplicação](#-aplicacao) 
+   * [Aplicação](#-aplicação) 
      * [inicio](#inicio)
      * [graficos](#graficos) 
    * [Como executar o projeto](#-como-executar-o-projeto)
