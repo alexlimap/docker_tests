@@ -151,12 +151,14 @@ Quem quiser da um up no projeto é so seguir os passos abaixo.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
 
 ---
 
 ## 🦸 Autor
-
+<a href="https://www.linkedin.com/in/alexandre-lima-47b63755/">
+ <img style="border-radius: 50%;" src="./fig/foto.png" width="100px;" alt=""/>
+ <br />
  [![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-lima-47b63755/)](https://www.linkedin.com/in/alexandre-lima-47b63755/) 
 [![Gmail Badge](https://img.shields.io/badge/-alexandrepompeu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrepompeu@gmail.com)](mailto:alexandrepompeu@gmail.com)
  <br />
