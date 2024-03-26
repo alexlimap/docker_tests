@@ -1,5 +1,18 @@
 ## docker_tests
 # Inicial
+Passo inicial
+=================
+<!--ts-->
+   * [pyenv local 3.11.1](#pyenv)
+   * [poetry initi](#petry-init)
+   * [poetry env use 3.11.1](#poetry-env-use-3.11.1)
+   * [petry shell](#petry-shell)
+
+   * [github](#github)
+      * [git add .](#git-add)
+      * [git commit -m "{comentario}"](#git-commit)
+      * [git push](#git-push)
+<!--te-->
 ''' 
 1 - pyenv local 3.11.1
 2 - poetry init
