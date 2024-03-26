@@ -62,7 +62,7 @@ Além disso, a aplicação é hospedada no Render, uma plataforma em nuvem, torn
 A aplicação está disponível no link abaixo:
 
 <a href="https://docker-tests-b30u.onrender.com/">
-  <img alt="Made by alexl" src="https://img.shields.io/badge/Acessar%20Link%20-link-%2304D361">
+  <img alt="Made by alexl" src="https://img.shields.io/badge/Acessar%20-link-%2304D361">
 </a>
 
 
