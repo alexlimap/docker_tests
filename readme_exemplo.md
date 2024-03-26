@@ -157,7 +157,7 @@ Quem quiser da um up no projeto é so seguir os passos abaixo.
 
 ## 🦸 Autor
 
- [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-lima-47b63755/)](https://www.linkedin.com/in/alexandre-lima-47b63755/) 
+ [![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-lima-47b63755/)](https://www.linkedin.com/in/alexandre-lima-47b63755/) 
 [![Gmail Badge](https://img.shields.io/badge/-alexandrepompeu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrepompeu@gmail.com)](mailto:alexandrepompeu@gmail.com)
  <br />
  <sub><b>Alexandre Lima</b></sub></a> <a href="https://www.linkedin.com/in/alexandre-lima-47b63755/" title="Linkedin">🚀</a>
