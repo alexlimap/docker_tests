@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-     <a href="#" alt="site do ecoleta"> Docker exemplo </a>
+     <a href="#" alt="Doker hub"> Docker com streamlit(exemplo) </a>
 </h1>
 
 <h3 align="center">
@@ -17,9 +17,9 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#-funcionalidades)
-   * [Layout](#-layout) -->
+   * [Layout](#-layout) 
      * [inicio](#inicio)
-     * [graficos](#graficos) -->
+     * [graficos](#graficos) 
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
      * [🎲 Rodando o codigo (servidor)](#🎲-Rodando-o-codigo-(servidor))     
@@ -43,18 +43,18 @@ Além disso, a aplicação é hospedada no Render, uma plataforma em nuvem, torn
 ## ⚙️ Funcionalidades
 
 - [x] Upload de Arquivo CSV:
-  - [x] Interface para o usuário carregar um arquivo CSV
-  - [x] Verificação de validade do formato do arquivo.
+  - Interface para o usuário carregar um arquivo CSV
+  - Verificação de validade do formato do arquivo.
 - [x] Geração de Tabela e Gráficos 
-  - [x]Exibição de dados em formato de tabela.
-  - [x]Criação de dois tipos de gráficos a partir dos dados do CSV.
-  - [x]Gráfico 1: [Descrição do tipo de gráfico e o que ele representa]
-  - [x]Gráfico 2: [Descrição do tipo de gráfico e o que ele representa]
-- [x]Integração com Docker
-  - [x]Conteinerização da aplicação para garantir consistência entre diferentes ambientes de execução.
-- [x]Hospedagem no Render
-  - [x]Configuração para implantação e hospedagem na plataforma em nuvem Render.
-  - [x]Acesso web à aplicação hospedada.
+  - Exibição de dados em formato de tabela.
+  - Criação de dois tipos de gráficos a partir dos dados do CSV.
+  - Gráfico 1: [Grafico de barras no tempo]
+  - Gráfico 2: [Grafico de linhas no tempo]
+- [x] Integração com Docker
+  - Conteinerização da aplicação para garantir consistência entre diferentes ambientes de execução.
+- [x] Hospedagem no Render
+  - Configuração para implantação e hospedagem na plataforma em nuvem Render.
+  - Acesso web à aplicação hospedada.
   
 ---
 
@@ -63,22 +63,22 @@ Além disso, a aplicação é hospedada no Render, uma plataforma em nuvem, torn
 O layout da aplicação está disponível no link abaixo:
 
 <a href="https://docker-tests-b30u.onrender.com/">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-link-%2304D361">
 </a>
 
 
 ### inicio
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./fig/inicio.png" width="200px">
+  <img alt="TelaTabela" title="#TelaTabela" src="./fig/inicio.png" width="200px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./fig/tabelas.svg" width="200px">
+  <img alt="TelaTabela" title="#TelaTabela" src="./fig/tabelas.png" width="200px">
 </p>
 
 ### graficos
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./fig/graficos.png" width="400px">
+  <img alt="graficos" title="#Graficos" src="./fig/graficos.png" width="400px">
 </p>
 
 ---
@@ -117,12 +117,10 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev:server
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor inciará na porta:3333 - acesse http://localhost:8501 
 
 ```
-<p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
+
 
 
 ## 🛠 Tecnologias
@@ -143,7 +141,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 👨‍💻 Contribuidores
 
-💜 Um super thanks 👏 para essa galera que fez esse produto sair do campo da ideia e entrar nas lojas de aplicativos :)
+Quem quiser da um up no projeto é so seguir os passos abaixo.
 
 
 
@@ -159,10 +157,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-<a href="https://www.linkedin.com/in/alexandre-lima-47b63755/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+ [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-lima-47b63755/)](https://www.linkedin.com/in/alexandre-lima-47b63755/) 
+[![Gmail Badge](https://img.shields.io/badge/-alexandrepompeu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrepompeu@gmail.com)](mailto:alexandrepompeu@gmail.com)
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://www.linkedin.com/in/alexandre-lima-47b63755/" title="Linkedin">🚀</a>
+ <sub><b>Alexandre Lima</b></sub></a> <a href="https://www.linkedin.com/in/alexandre-lima-47b63755/" title="Linkedin">🚀</a>
  <br />
 
 
@@ -173,7 +171,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Alexandre Lima 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alexandre-lima-47b63755/)
+Feito para fins de estudo por Alexandre Lima 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alexandre-lima-47b63755/)
 
 ---
 
