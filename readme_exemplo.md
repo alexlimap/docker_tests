@@ -103,7 +103,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone https://github.com/alexlimap/docker_tests
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd README-ecoleta
@@ -112,12 +112,12 @@ $ cd README-ecoleta
 $ cd server
 
 # Instale as dependências
-$ npm install
+$ poetry install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+$ docker run dev:server
 
-# O servidor inciará na porta:3333 - acesse http://localhost:8501 
+# O servidor inciará na porta:8501 - acesse http://localhost:8501 
 
 ```
 
@@ -164,7 +164,7 @@ Quem quiser da um up no projeto é so seguir os passos abaixo.
  <sub><b>Alexandre Lima</b></sub></a> <a href="https://www.linkedin.com/in/alexandre-lima-47b63755/" title="Treinamento">🚀</a>
 
 
-Feito para estudo por Alexandre Lima 👋🏽 Entre em contato!
+Feito para fins de estudo por Alexandre Lima 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-lima-47b63755/)](https://www.linkedin.com/in/alexandre-lima-47b63755/) 
 [![Gmail Badge](https://img.shields.io/badge/-alexandrepompeu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrepompeu@gmail.com)](mailto:alexandrepompeu@gmail.com)
@@ -174,8 +174,6 @@ Feito para estudo por Alexandre Lima 👋🏽 Entre em contato!
 ## 📝 Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
-
-Feito para fins de estudo por Alexandre Lima 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alexandre-lima-47b63755/)
 
 ---
 
