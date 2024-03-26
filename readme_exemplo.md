@@ -16,15 +16,14 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
-   * [Funcionalidades](#-funcionalidades)
+   * [Funcionalidades](#%EF%B8%8F-funcionalidades)
    * [Layout](#-layout) 
      * [inicio](#inicio)
      * [graficos](#graficos) 
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [🎲 Rodando o codigo (servidor)](#🎲-Rodando-o-codigo-(servidor))     
-   * [Tecnologias](#-tecnologias)
-     * [Web](#user-content-website--react----typescript)  
+     * [🎲 Rodando o codigo (servidor)](#-rodando-o-codigo-servidor)     
+   * [Tecnologias](#-tecnologias) 
    * [Contribuidores](#-contribuidores)
    * [Como contribuir no projeto](#-como-contribuir-no-projeto)
    * [Autor](#-autor)
@@ -121,7 +120,7 @@ $ docker run dev:server
 
 ```
 
-
+---
 
 ## 🛠 Tecnologias
 
