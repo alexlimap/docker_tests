@@ -66,7 +66,7 @@ A aplicação está disponível no link abaixo:
 </a>
 
 
-### inicio
+### Inicio
 
 <p align="center">
   <img alt="TelaTabela" title="#TelaTabela" src="./fig/inicio.png" width="200px">
@@ -74,7 +74,7 @@ A aplicação está disponível no link abaixo:
   <img alt="TelaTabela" title="#TelaTabela" src="./fig/tabelas.png" width="200px">
 </p>
 
-### graficos
+### Graficos
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="graficos" title="#Graficos" src="./fig/graficos.png" width="400px">
