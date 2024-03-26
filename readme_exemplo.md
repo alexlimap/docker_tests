@@ -17,7 +17,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#%EF%B8%8F-funcionalidades)
-   * [Layout](#-layout) 
+   * [Aplicação](#-aplicacao) 
      * [inicio](#inicio)
      * [graficos](#graficos) 
    * [Como executar o projeto](#-como-executar-o-projeto)
@@ -57,9 +57,9 @@ Além disso, a aplicação é hospedada no Render, uma plataforma em nuvem, torn
   
 ---
 
-## 🎨 Layout
+## 🎨 Aplicação
 
-O layout da aplicação está disponível no link abaixo:
+A aplicação está disponível no link abaixo:
 
 <a href="https://docker-tests-b30u.onrender.com/">
   <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-link-%2304D361">
