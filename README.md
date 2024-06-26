@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-    !! Repositorio usado como exemplo para subir uma aplicação streamlit no $${\color{red}docker$$com$$git}$$.
+    !! Repositorio usado como exemplo para subir uma aplicação streamlit no $${\color{red}docker \space com \space git}$$.
 </h3>
 
 <h4 align="center">
