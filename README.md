@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-    Repositorio usado como exemplo para subir uma aplicação streamlit no ![#f03c15]docker.`#f03c15`
+    Repositorio usado como exemplo para subir uma aplicação streamlit no -docker.
 </h3>
 
 <h4 align="center">
